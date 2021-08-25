@@ -1,0 +1,16 @@
+{
+	"name": "test_expressjs",
+	"version": "1.0.0",
+	"description": "Sample app using expressjs",
+	"author": "Rafael Chavez",
+	"license": "Apache License 2.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Testing...\" && exit 1",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}

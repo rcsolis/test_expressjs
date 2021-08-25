@@ -1,0 +1,21 @@
+GET http://localhost:3000/
+###
+GET http://localhost:3000/categories
+
+###
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/12345
+
+
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "sku":"12345",
+    "name":"Product 4",
+    "price":"190.10",
+    "quantity":20
+}
