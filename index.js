@@ -57,7 +57,6 @@ app.post('/products', (req, res) => {
 	//return
 	res.status(201).send('ok');
 });
-
 //Not found
 app.get('*', (req, res) => {
 	res.status(404).send('Page not found');
